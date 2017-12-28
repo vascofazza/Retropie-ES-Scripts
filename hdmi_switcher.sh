@@ -21,7 +21,7 @@ function hdmi_handler {
 		tvservice -o #power off
 		amixer cset numid=3 1?#audio output to jack
 		kill $pid
-	fid
+	fi
 }
 
 #hdmi_handler "DPI"
